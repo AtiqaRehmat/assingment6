@@ -236,3 +236,15 @@
 //else{
   //  alert("try again");
 //}
+//        ch # 26 - 30 MATH METHODS TASK 8
+
+//var num = prompt("enter number between 1 to 10 ");
+//var ran =Math.random()*10+1;
+//ran=Math.floor(ran);
+//if(num === ran)
+//{
+//alert("Congratulation");
+//}
+//else{
+  //  alert("try again");
+//}
