@@ -248,3 +248,247 @@
 //else{
   //  alert("try again");
 //}
+
+
+//        ch # 31 - 34 DATE METHODS TASK 1
+
+// var currentTime = new Date();
+// document.write( currentTime );
+
+//        ch # 31 - 34 DATE METHODS TASK 2
+
+//var date = new Date();
+//var months = new Array();
+//months[0] = "January";
+//months[1] = "February";
+//months[2] = "March";
+//months[3] = "April";
+//months[4] = "May";
+//months[5] = "June";
+//months[6] = "July";
+//months[7] = "August";
+//months[8] = "September";
+//months[9] = "October";
+//months[10] = "November";
+//months[11] = "December";
+//var currentMonth = months[date.getMonth()];
+//document.write(currentMonth);
+
+
+
+//        ch # 31 - 34 DATE METHODS TASK 3
+
+// var date = new Date();
+// var daysList = ['Sun','MON','Tue','Wed','Thur','Fri','Sat'];
+// var currentDay=daysList[date.getDay()];
+
+// document.write("Day is : "+currentDay);
+
+
+//        ch # 31 - 34 DATE METHODS TASK 4
+
+// var date = new Date();
+// var daysList = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat'];
+// var currentDay=daysList[date.getDay()];
+// if(currentDay === "Sun" || currentDay=== "Sat")
+// {
+// document.write("It's Fun Day  ");
+
+// }
+// else
+// {
+// document.write("Day is : "+currentDay);
+
+// }
+
+
+
+//        ch # 31 - 34 DATE METHODS TASK 5
+
+// var date = new Date();
+// var days = date.getDate();
+// if (days <= 15 )
+// {
+// document.write("“First fifteen days of the month");
+
+// }
+// else
+// {
+// document.write("Last days of the month");
+
+// }
+
+
+//        ch # 31 - 34 DATE METHODS TASK 6
+
+
+// var currentDate = new Date();
+// document.write(currentDate+"</br>");
+// var data = new Date(" Jan. 1, 1970");
+// var dataTime =data.getTime();
+// document.write("Elapsed milli second since jan 1, 1970 : "+dataTime);
+
+//        ch # 31 - 34 DATE METHODS TASK 7
+
+
+
+
+
+//        ch # 31 - 34 DATE METHODS TASK 8
+
+//var last = new Date("Tue dec 31 2020 00:00:00 GMT+0500 (PKT)");
+//document.write(last);
+
+
+//        ch # 31 - 34 DATE METHODS TASK 9
+
+// var ramdanDate = new Date("june 18, 2015");
+// var today = ramdanDate.getDate();
+// document.write(today);
+// var year= ramdanDate.getFullYear();
+// document.write(year);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 1
+
+// function Time() {
+//   var now = new Date();
+ 
+//   alert(now);
+//  }
+//  Time();
+  
+
+//        ch # 35 - 40 FUNCTIONS TASK 2
+
+// function greet()
+// {
+//   var firstName="atiqa";
+//   var space=" ";
+//   var lastName="Rehmat";
+//   alert("Full Name : "+firstName+space+lastName);
+// }
+// greet();
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 3
+
+// function sum()
+// {
+//   var num1 = +prompt("enter number ");
+//   var num2 = +prompt("enter number ");
+//   var add;
+//   add=(num1+num2);
+//   alert("Result :"+num1+" + "+num2+" = "+add);
+
+// }
+// sum();
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 4
+
+// function calculator(num1,num2,opp)
+// {
+//   if(opp === "+")
+//   {
+//     return num1+num2;
+//   }
+//   if(opp === "-")
+//   {
+//     return num1-num2;
+//   }
+//   if(opp === "*")
+//   {
+//     return num1*num2;
+//   }
+//   if(opp === "/")
+//   {
+//     return num1/num2;
+//   }
+//   if(opp === "%")
+//   {
+//     return num1%num2;
+//   }
+// }
+
+// var result= calculator(3,6,"-");
+// document.write(result);
+
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 5
+
+// function sqr(num)
+// {
+// return num*num;
+// }
+// var result=sqr(4);
+// document.write(result);
+
+//        ch # 35 - 40 FUNCTIONS TASK 6
+
+// function factorial(num)
+// {
+//   var fact=1;
+// for(var i=1; i<=num; i++)
+// {
+//  fact=fact*i;
+// }
+// return fact;
+// }
+// var result=factorial(5);
+// document.write(result);
+
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 7
+
+// function counter()
+// {
+// var start= +prompt("Enter starting number ");
+// var end= +prompt("Enter ending number ");
+// for(var i=start; i<=end; i++)
+// {
+//   document.write(i+"</br>");
+// }
+// }
+// counter();
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 8
+
+
+
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 9
+
+// function Area(width,height)
+// {
+//   var Area=(width*height);
+// return Area;
+// }
+// var result=Area(20,4);
+// document.write(result);
+
+
+//        ch # 35 - 40 FUNCTIONS TASK 10
+
+
+
